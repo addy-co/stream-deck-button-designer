@@ -361,7 +361,7 @@ function init() {
 }
 
 document.getElementById("download").addEventListener("click", function() {
-htmlToImage.toPng(document.getElementById('preview-button'), { quality: 1, height: 244, width: 244 })
+htmlToImage.toPng(document.getElementById('preview-button'), { quality: 1, height: 288, width: 288 })
 .then(function (dataUrl) {
 	var link = document.createElement('a');
 	link.download = document.getElementById('textTextControl').value + '.png';
