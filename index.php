@@ -147,7 +147,7 @@
 					<div class="uploadIconOptions">
 						<label for="iconUploadControl">Select Icon (.png/.svg/.gif)<i class="fa-solid fa-camera"></i></label>
 						
-						<input type="file" id="iconUploadControl" accept="image/png, image/jpeg, image/svg, image/gif" onchange="controlIconType()">
+						<input type="file" id="iconUploadControl" accept="image/png, image/jpeg, image/svg+xml, image/gif" onchange="controlIconType()">
 						<a href="https://toolkit.addy.codes/tag/icons/" target="_blank" style="font-size: 0.8rem; color: lightblue; margin-top: 0.5rem; display: block;">Discover more icons on my Toolkit!</a> 
 					</div>
 				</div>
